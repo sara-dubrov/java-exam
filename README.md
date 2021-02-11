@@ -14,7 +14,7 @@ need to touch only 3 files:
 * spring-config.xml
 * DefaultTodoService
 * DefaultIdNumberValidator
-SetGame
+
 
 ## Part 2
 Here things are getting a little bit trickier. You will have
