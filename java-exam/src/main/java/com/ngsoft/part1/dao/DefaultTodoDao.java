@@ -1,7 +1,7 @@
-package com.ngsoft.dao;
+package com.ngsoft.part1.dao;
 
 import com.google.gson.Gson;
-import com.ngsoft.pojos.TodoItem;
+import com.ngsoft.part1.pojos.TodoItem;
 
 import java.io.File;
 import java.io.FileNotFoundException;

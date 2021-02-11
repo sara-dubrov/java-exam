@@ -6,9 +6,9 @@
    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
     <alias name="defaultTodoDao" alias="todoDao"/>
-    <bean name="defaultTodoDao" class="com.ngsoft.dao.DefaultTodoDao"></bean>
+    <bean name="defaultTodoDao" class="com.ngsoft.part1.dao.DefaultTodoDao"></bean>
 
     <alias name="defaultIdNumberValidator" alias="idNumberValidator"/>
-    <bean name="defaultIdNumberValidator" class="com.ngsoft.IdNumber.DefaultIdNumberValidator"/>
+    <bean name="defaultIdNumberValidator" class="com.ngsoft.part1.IdNumber.DefaultIdNumberValidator"/>
 
 </beans>

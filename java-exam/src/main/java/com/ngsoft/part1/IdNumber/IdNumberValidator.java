@@ -1,4 +1,4 @@
-package com.ngsoft.IdNumber;
+package com.ngsoft.part1.IdNumber;
 
 
 public interface IdNumberValidator {
