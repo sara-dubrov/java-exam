@@ -1,4 +1,4 @@
-package com.ngsoft.services;
+package com.ngsoft.part1.services;
 
 public interface TodoService {
     /**

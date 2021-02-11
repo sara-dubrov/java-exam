@@ -1,6 +1,6 @@
-package com.ngsoft;
+package com.ngsoft.part1;
 
-import com.ngsoft.services.TodoService;
+import com.ngsoft.part1.services.TodoService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

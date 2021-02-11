@@ -1,7 +1,7 @@
-package com.ngsoft.services;
+package com.ngsoft.part1.services;
 
 /**
- * This emulates a service layer that performs data statistics on a data source of {@link com.ngsoft.pojos.TodoItem}s.
+ * This emulates a service layer that performs data statistics on a data source of {@link com.ngsoft.part1.pojos.TodoItem}s.
  * Whomever is going to consume this service (emulated here by unit test) is not going to know of this specific implementation
  * it will only be aware of the interface {@link TodoService}
  * The data source here is provided by an implementation of TodoDao interface that is already configured by spring.

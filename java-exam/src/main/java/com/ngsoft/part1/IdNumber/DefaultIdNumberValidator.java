@@ -1,4 +1,4 @@
-package com.ngsoft.IdNumber;
+package com.ngsoft.part1.IdNumber;
 
 /**
  * Validating if a string is a proper id number is a requirenment of a lot of

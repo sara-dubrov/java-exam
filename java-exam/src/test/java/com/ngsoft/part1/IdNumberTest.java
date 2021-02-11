@@ -1,6 +1,6 @@
-package com.ngsoft;
+package com.ngsoft.part1;
 
-import com.ngsoft.IdNumber.IdNumberValidator;
+import com.ngsoft.part1.IdNumber.IdNumberValidator;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.ngsoft.pojos;
+package com.ngsoft.part1.pojos;
 
 public class TodoItem {
     private int userId;
