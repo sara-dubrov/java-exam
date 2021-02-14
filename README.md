@@ -2,8 +2,8 @@
 
 This is a very short test for your skills in java
 It is using maven + spring framework.
-In order for you to pass the exams you need ``Mvn Test``
-to run without any errors and test failures.
+In order for you to pass the exams you need ``mvn test``
+to run without any errors or test failures.
 
 If you are a job candidate - then - fork, clone, edit, commit and PR.
 
