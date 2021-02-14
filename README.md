@@ -7,7 +7,7 @@ to run without any errors or test failures.
 
 If you are a job candidate - then - fork, clone, edit, commit and PR.
 
-Depenending on instructions you get from are please complete either 1 of the following parts, or both of them.
+Depenending on instructions you get from us, please complete either 1 of the following parts, or both of them.
 
 ## Part 1
 Please do not touch any file in the ``test/part1`` folder ,
