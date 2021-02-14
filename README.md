@@ -5,7 +5,9 @@ It is using maven + spring framework.
 In order for you to pass the exams you need ``Mvn Test``
 to run without any errors and test failures.
 
-If you are a job candidate - then - clone, edit, commit and Issue a PR.
+If you are a job candidate - then - fork, clone, edit, commit and PR.
+
+Depenending on instructions you get from are please complete either 1 of the following parts, or both of them.
 
 ## Part 1
 Please do not touch any file in the ``test/part1`` folder ,
