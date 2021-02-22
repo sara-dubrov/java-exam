@@ -1,8 +1,8 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 
-<beans xmlns = "http://www.springframework.org/schema/beans"
-       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
     <alias name="defaultTodoDao" alias="todoDao"/>
@@ -13,5 +13,15 @@
 
     <alias name="defaultIdNumberValidator" alias="idNumberValidator"/>
     <bean name="defaultIdNumberValidator" class="com.ngsoft.part1.IdNumber.DefaultIdNumberValidator"/>
+
+    <!-- part 2 -->
+    <alias name="setDeck" alias="deck"/>
+    <bean name="setDeck" class="com.ngsoft.part2.SetGame.model.DefaultDeck"/>
+
+    <alias name="defaultGameRules" alias="gameRules"/>
+    <bean name="defaultGameRules" class="com.ngsoft.part2.SetGame.model.DefaultGameRules"/>
+
+    <alias name="defaultGamePlay" alias="gamePlay"/>
+    <bean name="defaultGamePlay" class="com.ngsoft.part2.SetGame.model.DefaultGamePlay"/>
 
 </beans>

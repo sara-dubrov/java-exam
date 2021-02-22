@@ -1,26 +1,26 @@
-package com.ngsoft.part2.SetGame;
+package com.ngsoft.part2.SetGame.pojos;
 
 public class CardFeatures {
 
-    public enum Color{
+    public enum Color {
         GREEN,
         BLUE,
         PURPLE
     }
 
-    public enum Shape{
+    public enum Shape {
         OVAL,
         SQUIGGLE,
         DIAMOND
     }
 
-    public enum ItemCount{
+    public enum ItemCount {
         ONE,
         TWO,
         THREE
     }
 
-    public enum Texture{
+    public enum Texture {
         FULL,
         STRIPED,
         HOLLOW
