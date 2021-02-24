@@ -5,6 +5,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
+    <!-- part 1 -->
     <alias name="defaultTodoDao" alias="todoDao"/>
     <bean name="defaultTodoDao" class="com.ngsoft.part1.dao.DefaultTodoDao"/>
 

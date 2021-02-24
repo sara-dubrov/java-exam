@@ -45,7 +45,7 @@ public class DefaultDeck implements Deck {
         return dealtCards;
     }
 
-    private boolean isQtyValid(int qty) { // may be <3?
+    private boolean isQtyValid(int qty) {
         return qty > 0 && qty <= cards.size();
     }
 

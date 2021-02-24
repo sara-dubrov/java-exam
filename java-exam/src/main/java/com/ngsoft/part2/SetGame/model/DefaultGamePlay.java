@@ -53,10 +53,14 @@ public class DefaultGamePlay implements GamePlay {
     }
 
     private void validateCardIndex(int card1, int card2, int card3) {
-        boolean invalidCardSelected = Stream.of(card1, card2, card3).anyMatch(i -> i < 0 || i >= revealedCards.size());
+        boolean invalidCardSelected = Stream.of(card1, card2, card3).anyMatch(this::isInvalidIndexCard);
         if (invalidCardSelected) {
             throw new IllegalArgumentException("The selected indexes are invalid");
         }
+    }
+
+    private boolean isInvalidIndexCard(int card) {
+        return card < 0 || card >= revealedCards.size();
     }
 
     private List<Card> getCardsByIndex(int card1, int card2, int card3) {
